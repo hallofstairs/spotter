@@ -1,14 +1,8 @@
 # spotter
 
-Terminal dashboard for choosing AWS GPU instances for training jobs.
+MacOS terminal dashboard displaying AWS GPU availability across regions
 
-It shows, by region and GPU family:
-- inferred availability signals
-- Spot placement score
-- Spot and On-Demand pricing
-- recent Spot price trend
-
-Defaults are focused on training-relevant NVIDIA GPUs like `H100`, `H200`, `A100`, `L40S`, `L4`, `A10G`, and `V100`.
+![spotter dashboard](docs/ui.png)
 
 ## Requirements
 
@@ -32,13 +26,6 @@ From a local clone:
 ```bash
 npm install
 npm link
-spotter
-```
-
-After publish:
-
-```bash
-npm install -g spotter
 spotter
 ```
 
