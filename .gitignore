@@ -1,0 +1,24 @@
+# Build output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+
+# Python leftovers
+__pycache__/
+*.py[oc]
+.venv/
+wheels/
+*.egg-info
+
+# OS / editor noise
+.DS_Store

@@ -1,0 +1,29 @@
+{
+  "name": "spotter",
+  "version": "0.2.0",
+  "description": "Terminal dashboard for AWS GPU Spot availability and pricing",
+  "bin": {
+    "spotter": "dist/main.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "tsx src/main.ts --dev-fast",
+    "dev:full": "tsx src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build --silent && node dist/main.js",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
