@@ -10,15 +10,6 @@ MacOS terminal dashboard for tracking GPU availability on AWS
 - AWS CLI v2
 - AWS credentials configured locally
 
-Suggested IAM permissions:
-- `ec2:DescribeRegions`
-- `ec2:DescribeAvailabilityZones`
-- `ec2:DescribeInstanceTypes`
-- `ec2:DescribeInstanceTypeOfferings`
-- `ec2:DescribeSpotPriceHistory`
-- `ec2:GetSpotPlacementScores`
-- `pricing:GetProducts`
-
 ## Install
 
 From a local clone:
