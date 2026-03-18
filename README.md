@@ -1,6 +1,6 @@
 # spotter
 
-MacOS terminal dashboard for tracking GPU availability on AWS
+Terminal interface for tracking GPU availability on AWS
 
 ![spotter dashboard](docs/ui.png)
 
