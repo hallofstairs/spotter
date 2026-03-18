@@ -23,7 +23,7 @@ spotter
 Directly from a git repo:
 
 ```bash
-npm install -g <git-url>
+npm install -g git@github.com:hallofstairs/spotter.git
 spotter
 ```
 
