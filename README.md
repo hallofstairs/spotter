@@ -12,15 +12,7 @@ MacOS terminal dashboard for tracking GPU availability on AWS
 
 ## Install
 
-From a local clone:
-
-```bash
-npm install
-npm link
-spotter
-```
-
-Directly from a git repo:
+Directly from this repo:
 
 ```bash
 npm install -g https://github.com/hallofstairs/spotter.git
